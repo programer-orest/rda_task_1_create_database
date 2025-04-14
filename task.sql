@@ -9,11 +9,6 @@ CREATE TABLE Products(
   PRIMARY KEY (ProductID)
 );
 
-CREATE TABLE BonusAccounts (
-    EmployeeID INT PRIMARY KEY,
-    Balance DECIMAL(10,2)
-);
-
 CREATE TABLE Customers(
   CustomersID INT AUTO_INCREMENT,
   FirstName VARCHAR(50),
